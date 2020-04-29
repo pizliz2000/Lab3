@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         int id = db.getContactsCount();
-                        db.updateContact(new Contact((int) id, "Ivanov ivan", dateString.toString()));
+                        db.updateContact(new Contact((int) id, "Ivanov Ivan Ivanovich", dateString.toString()));
 
                     }
                 }
